@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gu.Wpf.ToggleSwitch", "Gu.Wpf.ToggleSwitch\Gu.Wpf.ToggleSwitch.csproj", "{F9426059-27DB-45F0-9012-B1234965FBE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1427BFAC-8B23-44EA-A666-FDDEADF7F1CB}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gu.Wpf.ToggleSwitch.Demo", "Gu.Wpf.ToggleSwitch.Demo\Gu.Wpf.ToggleSwitch.Demo.csproj", "{8261DF6A-BE4D-404E-A9CC-2CAD4E16DAF4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfshub.sandvik.com:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = Gu.Wpf.ToggleSwitch\\Gu.Wpf.ToggleSwitch.csproj
+		SccProjectName0 = Gu.Wpf.ToggleSwitch
+		SccLocalPath0 = Gu.Wpf.ToggleSwitch
+		SccProjectUniqueName1 = Gu.Wpf.ToggleSwitch.Demo\\Gu.Wpf.ToggleSwitch.Demo.csproj
+		SccProjectName1 = Gu.Wpf.ToggleSwitch.Demo
+		SccLocalPath1 = Gu.Wpf.ToggleSwitch.Demo
+		SccLocalPath2 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CreateNugetPackage|Any CPU = CreateNugetPackage|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9426059-27DB-45F0-9012-B1234965FBE0}.CreateNugetPackage|Any CPU.ActiveCfg = CreateNugetPackage|Any CPU
+		{F9426059-27DB-45F0-9012-B1234965FBE0}.CreateNugetPackage|Any CPU.Build.0 = CreateNugetPackage|Any CPU
+		{F9426059-27DB-45F0-9012-B1234965FBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9426059-27DB-45F0-9012-B1234965FBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9426059-27DB-45F0-9012-B1234965FBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9426059-27DB-45F0-9012-B1234965FBE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8261DF6A-BE4D-404E-A9CC-2CAD4E16DAF4}.CreateNugetPackage|Any CPU.ActiveCfg = Release|Any CPU
+		{8261DF6A-BE4D-404E-A9CC-2CAD4E16DAF4}.CreateNugetPackage|Any CPU.Build.0 = Release|Any CPU
+		{8261DF6A-BE4D-404E-A9CC-2CAD4E16DAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8261DF6A-BE4D-404E-A9CC-2CAD4E16DAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8261DF6A-BE4D-404E-A9CC-2CAD4E16DAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8261DF6A-BE4D-404E-A9CC-2CAD4E16DAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

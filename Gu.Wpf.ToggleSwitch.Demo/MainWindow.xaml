@@ -1,0 +1,25 @@
+﻿<Window x:Class="Gu.Wpf.ToggleSwitch.Demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:toggleSwitch="clr-namespace:Gu.Wpf.ToggleSwitch;assembly=Gu.Wpf.ToggleSwitch"
+        Title="MainWindow"
+        Width="525"
+        Height="350"
+        d:DataContext="{d:DesignData Vm}"
+        mc:Ignorable="d">
+    <StackPanel>
+        <TextBlock Text="Vanilla bool prop" />
+        <toggleSwitch:HorizontalToggleSwitch HorizontalAlignment="Left" IsChecked="{Binding BoolProp}" />
+
+        <TextBlock Text="bool? (Nullable) prop" />
+        <toggleSwitch:HorizontalToggleSwitch HorizontalAlignment="Left" IsChecked="{Binding NullableBoolProp}" />
+
+        <TextBlock Text="MAP style" />
+        <toggleSwitch:HorizontalToggleSwitch HorizontalAlignment="Left"
+                                             IsChecked="{Binding NullableBoolProp}"
+                                             Style="{StaticResource ModernUIToggleSwitch}" />
+
+    </StackPanel>
+</Window>
