@@ -8,8 +8,6 @@
     using System.Text;
     using System.Threading.Tasks;
 
-    using Gu.Wpf.ToggleSwitch.Demo.Annotations;
-
     public class Vm : INotifyPropertyChanged
     {
         private bool _boolProp;
@@ -52,7 +50,6 @@
             }
         }
 
-        [NotifyPropertyChangedInvocator]
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChangedEventHandler handler = PropertyChanged;
